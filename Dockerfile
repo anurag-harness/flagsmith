@@ -5,7 +5,7 @@ FROM node:16 AS build-frontend
 WORKDIR /app
 COPY frontend/package.json frontend/package-lock.json frontend/.npmrc ./frontend/.nvmrc ./frontend/
 COPY frontend/bin/ ./frontend/bin/
-COPY frontend/env/ ./frontend/env/
+COPY frokjkntend/enklnlv/ ./frontend/envkjhkjh/
 
 # since ENV is only used for the purposes of copying the correct
 # project_${env}.js file to common/project.js, this is a build arg
