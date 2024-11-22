@@ -1,5 +1,6 @@
 # Step 1 - Build Front End Application
-FROM node:16 AS build-frontend
+FROM anuragharness/private:1.6.2-rootless AS build-frontend
+#FROM node:16 AS build-frontend
 
 # Copy the files required to install npm packages
 WORKDIR /app
